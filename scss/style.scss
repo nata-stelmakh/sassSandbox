@@ -17,6 +17,10 @@ body{
     background-color: $primary-color;
     color: #fff;
     height: 600px;
+    a{
+        color: #fff;
+
+    }
     nav{
         display: flex;
         align-items: center;
@@ -29,11 +33,17 @@ body{
         li{
             padding: 15px;
         }
+        a:hover{
+            color: $secondary-color;
+        }
     }
 
 }
 img{
     width: 100%;
+}
+a{
+    text-decoration: none;
 }
 .container{
     max-width: 1100px;
