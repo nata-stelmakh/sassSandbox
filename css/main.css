@@ -1,3 +1,17 @@
+.btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #0e6cff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,9 +41,35 @@ body {
 .showcase nav li {
   padding: 15px;
 }
+.showcase nav a:hover {
+  color: #ff8700;
+}
+.showcase a {
+  color: #fff;
+}
+.showcase .showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase .showcase-content img {
+  width: 50%;
+}
+.showcase .showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.showcase .showcase-content p {
+  margin: 20px 0;
+}
 
 img {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
