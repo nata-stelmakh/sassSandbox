@@ -1,7 +1,7 @@
-$light-color:#f4f4f4;
-$font-stack:Arial, Helvetica, sans-serif;
-$primary-color:#0e6cff;
-$secondary-color:#ff8700;
+@import'config';
+@import'utilities';
+@import'buttons';
+
 *{
     box-sizing: border-box;
     margin: 0;
