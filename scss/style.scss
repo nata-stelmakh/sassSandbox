@@ -14,7 +14,7 @@ body{
 }
 
 .showcase{
-    @include set-background-color($primary-color);
+    @include set-background($primary-color);
     height: 600px;
     
     nav{
